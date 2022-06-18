@@ -1,2 +1,1 @@
-# IC-XRP
-Bazahei: IC-XRP Cross-chain NFT 
+# Bazahei: IC-XRP Cross-chain NFT 
