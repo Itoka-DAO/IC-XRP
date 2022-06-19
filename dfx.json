@@ -1,0 +1,30 @@
+{
+  "canisters": {
+    "nft": {
+      "main": "src/icxrp/ext/erc721.mo",
+      "type": "motoko"
+    },
+    "xrp": {
+      "main": "src/icxrp/xrpAccountManager.mo",
+      "type": "motoko"
+    },
+    "bridge": {
+      "main": "src/icxrp/bridge.mo",
+      "type": "motoko"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "dfx": "0.10.0",
+  "networks": {
+    "local": {
+      "bind": "127.0.0.1:8000",
+      "type": "ephemeral"
+    }
+  },
+  "version": 1
+}
