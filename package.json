@@ -12,7 +12,7 @@
     "NFT"
   ],
   "scripts": {
-    "build": "npm build",
+    "build": "npm build"
   },
   "devDependencies": {
     "@dfinity/agent": "0.10.2",
