@@ -87,8 +87,6 @@ Investors must conduct their own research before trading. Itoka and OctAI Inc. d
 
 # Reference
 
-### IC NFT stardard
-
 EXT Motoko implementation from Toniq-Labs(Stoic & Entrepot market place): https://github.com/Toniq-Labs/extendable-token/blob/main/examples/erc721.mo
 
 XRPL NonFungibleTokensV1 amendment standard on NFT-Devnet by Ripple Labs: https://xrpl.org/non-fungible-tokens.html
