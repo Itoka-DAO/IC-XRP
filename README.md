@@ -2,7 +2,7 @@
 #### Building for Dfinity Supernova Hackthon in 2022
 
 <p align="center">
-  <img width="460" height="300" src="[http://www.fillmurray.com/460/300](https://user-images.githubusercontent.com/46518089/174703113-d669798c-573c-44b1-a091-bd095bf8b579.png)">
+  <img width="460" height="300" src="https://drive.google.com/drive/u/5/folders/1T4e2QpOc08Lfvc72vDU6Xq8cpGa4hKok">
 </p>
 
 Explore demo on [HERE](https://aack7-jaaaa-aaaai-acl6a-cai.ic0.app/)
