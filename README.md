@@ -1,1 +1,1 @@
-# Bazahei: IC-XRP Cross-chain NFT 
+# པ་ཀྲ་ཧེ་། Bazahei: The first ICP-XRP cross-chain NFT
