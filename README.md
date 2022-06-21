@@ -1,6 +1,10 @@
 # པ་ཀྲ་ཧེ་། Bazahei: The first ICP-XRP cross-chain NFT
 #### Building for Dfinity Supernova Hackthon in 2022
 
+<p align="center">
+  <img width="460" height="300" src="[http://www.fillmurray.com/460/300](https://user-images.githubusercontent.com/46518089/174703113-d669798c-573c-44b1-a091-bd095bf8b579.png)">
+</p>
+
 Explore demo on [HERE](https://aack7-jaaaa-aaaai-acl6a-cai.ic0.app/)
 
 Refer full documentation on [Devpot](https://supernova.devpost.com/) 
