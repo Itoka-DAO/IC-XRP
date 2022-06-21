@@ -341,7 +341,7 @@ shared(msg) actor class Bridge() = this{
 
 
     // ic2xrp: this function has to update after Dfinity enables the HTTP request from canister
-    // invoke this function after mint NFT on xrp
+    // invoke this function right after/before mint NFT on xrp
     public shared (msg) func ic2xrp(_token_ic: TokenIndex, _token_xrp: NFTokenID, sender:Principal, receiver:XrpPublicKey): async BalanceResponse {
         
         // 1. verify {msg.caller} is the xrp issuer 
@@ -394,7 +394,7 @@ shared(msg) actor class Bridge() = this{
     // }
 
     // xrp2ic: Only xrp issuer can call this func
-    // invoke this function after mint NFT on xrp
+    // invoke this function after burning NFT on xrp
     public shared (msg) func xrp2ic(_token_ic: TokenIndex, _token_xrp: NFTokenID, sender:XrpPublicKey, receiver:Principal): async TransferResponse {
         // 1. verify {msg.caller} is the xrp issuer 
         if (msg.caller != xrplIssuerPrincipal){
