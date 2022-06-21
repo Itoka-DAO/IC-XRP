@@ -73,10 +73,26 @@ OR directly access `mintInfo.json` and `_mint.js`.
 
 ## How to IC2XRP?
 
-To mint XRP NFT, please depoly a severless [XRP issuer](https://github.com/Itoka-DAO/xrp_server) along with canisters and follow transcation follow. 
+To mint XRP NFT, please depoly a severless [XRP issuer](https://github.com/Itoka-DAO/xrp_server) along with canisters, and configure the envirnmental variables canisterID from `canister_ids.json` and follow transcation flows IC2XRP.
 
+For the best experience. depoly [Bazahei frontend UI](https://github.com/Itoka-DAO/icxrp) and configure the canister ID from `canister_ids.json` to run entire application. 
 
+## Disclaimer
 
+[Notice on 6/20/2022] The Itoka IC-XRP cross-chain project is for R&D purposes only. Since the XRPL NFT-Dev net is still under development and will be **reset and merged to the main net** in the future, we **highly recommend storing NFT assets on the Internet Computer network**. Please pay attention to the Ripple Labs announcement. Itoka and OctAI Inc. do not accept any responsibility or liability for any loss of assets caused by XRPL updates.
 
+The Itoka team airdropped the Bazahei NFTs to the community for free. 
 
+Investors must conduct their own research before trading. Itoka and OctAI Inc. do not accept any responsibility or liability for any loss of assets or investments.
 
+# Reference
+
+### IC NFT stardard
+
+EXT Motoko implementation from Toniq-Labs(Stoic & Entrepot market place): https://github.com/Toniq-Labs/extendable-token/blob/main/examples/erc721.mo
+
+XRPL NonFungibleTokensV1 amendment standard on NFT-Devnet by Ripple Labs: https://xrpl.org/non-fungible-tokens.html
+
+BiMap: A Motoko module for bijective maps fomr Aviate labs: https://github.com/aviate-labs/bimap.mo
+
+Internet Identity authentication by frontend: https://github.com/krpeacock/auth-client-demo.git
