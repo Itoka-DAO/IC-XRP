@@ -38,9 +38,9 @@ The project is developed by 6 components:
 
 [4] **A bridge-like canister** to stake cross-chain NFT and bound IC NFT token identifier and XRP NFTokenId. This canister also serves as custodian to stake IC NFT when it lives on the XRP network. The two core methods of {ic2xrp} and {xrp2ic} methods make records to the cross-chain ledger and only serverless XRP issuer can call those methods. The {xrp2ic} will also invoke an inter-canister calls to release NFT back to users. 
 
-[5] **A severless XRP issuer** with its own IC identity to handle XRP mining and burning operations. The issuer can verify user’s principal and XRP keys, token ownership from IC NFT canister, state of which blockchain and call {ic2xrp} and {xrp2ic} from bridge canister.
+[5] [**A severless XRP issuer**](https://github.com/Itoka-DAO/xrp_server) with its own IC identity to handle XRP mining and burning operations. The issuer can verify user’s principal and XRP keys, token ownership from IC NFT canister, state of which blockchain and call {ic2xrp} and {xrp2ic} from bridge canister.
 
-[6] **A frontend** for showcase gallery and verify if cross chain is successful. 
+[6] [**A frontend**](https://github.com/Itoka-DAO/icxrp) for showcase gallery and verify if cross chain is successful. 
 
 ![scheme](https://user-images.githubusercontent.com/46518089/174692046-76330399-e401-4817-8472-43c83274d877.png)
 
@@ -69,4 +69,14 @@ jsondata[row[0]] = {
   })
 ```
 
-OR directly `mintInfo.json` and `_mint.js`.
+OR directly access `mintInfo.json` and `_mint.js`.
+
+## How to IC2XRP?
+
+To mint XRP NFT, please depoly a severless [XRP issuer](https://github.com/Itoka-DAO/xrp_server) along with canisters and follow transcation follow. 
+
+
+
+
+
+
