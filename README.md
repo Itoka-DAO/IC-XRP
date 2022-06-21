@@ -77,7 +77,7 @@ To mint XRP NFT, please depoly a severless [XRP issuer](https://github.com/Itoka
 
 For the best experience. depoly [Bazahei frontend UI](https://github.com/Itoka-DAO/icxrp) and configure the canister ID from `canister_ids.json` to run entire application. 
 
-## Disclaimer
+# Disclaimer
 
 [Notice on 6/20/2022] The Itoka IC-XRP cross-chain project is for R&D purposes only. Since the XRPL NFT-Dev net is still under development and will be **reset and merged to the main net** in the future, we **highly recommend storing NFT assets on the Internet Computer network**. Please pay attention to the Ripple Labs announcement. Itoka and OctAI Inc. do not accept any responsibility or liability for any loss of assets caused by XRPL updates.
 
