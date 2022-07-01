@@ -10,7 +10,7 @@
 
 Explore demo on [HERE](https://aack7-jaaaa-aaaai-acl6a-cai.ic0.app/)
 
-Refer full documentation on [Devpot](https://supernova.devpost.com/) 
+Refer full documentation on [Devpot](https://devpost.com/software/icxrp-the-first-icp-xrp-cross-chain-nft) 
 
 ## Introduction
 
